@@ -1,0 +1,106 @@
+# ------------------------------------
+# Python
+# ------------------------------------
+__pycache__/
+*.py[cod]
+*py.class
+
+# C extensions
+*.so
+
+# ------------------------------------
+# Virtual Environments
+# ------------------------------------
+.venv/
+venv/
+env/
+ENV/
+.ENV/
+
+# ------------------------------------
+# Distribution / packaging
+# ------------------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+wheelhouse/
+MANIFEST
+
+# ------------------------------------
+# Unit test / coverage reports
+# ------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+*.cover
+*.py,cover
+
+# ------------------------------------
+# PyInstaller
+# ------------------------------------
+*.manifest
+*.spec
+
+# ------------------------------------
+# Logs / temp files
+# ------------------------------------
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# ------------------------------------
+# Jupyter Notebook
+# ------------------------------------
+.ipynb_checkpoints/
+
+# ------------------------------------
+# Django / Flask
+# ------------------------------------
+*.sqlite3
+db.sqlite3
+instance/
+*.db
+
+# ------------------------------------
+# Mypy / type checking
+# ------------------------------------
+.mypy_cache/
+.dmypy.json
+pyrightconfig.json
+
+# ------------------------------------
+# Environments / secrets
+# ------------------------------------
+.env
+.env.*
+*.env
+
+# ------------------------------------
+# IDEs / Editors
+# ------------------------------------
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# ------------------------------------
+# Pygame / assets caches
+# ------------------------------------
+*.sav
+*.dat
