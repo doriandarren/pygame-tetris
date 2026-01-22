@@ -6,11 +6,11 @@ python3 -m venv .venv
 
 source .venv/bin/activate
 
-
-python -m pip install -U pip
+pip3 install --upgrade pip
 
 
 ## Pygame
+pip3 install pygame
 python -m pip install pygame                                    # Instalar Pygame
 python -c "import pygame; print(pygame.version.ver)"            # Ver version
 
@@ -25,5 +25,3 @@ python3 main.py
 
 
 ```
-
-
